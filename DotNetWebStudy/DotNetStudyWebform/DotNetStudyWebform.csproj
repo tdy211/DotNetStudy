@@ -160,6 +160,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="MyModel\child.aspx" />
+    <Content Include="MyModel\parent.aspx" />
+    <Content Include="MyModel\说明.txt" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -307,6 +310,20 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="MyModel\child.aspx.cs">
+      <DependentUpon>child.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyModel\child.aspx.designer.cs">
+      <DependentUpon>child.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyModel\parent.aspx.cs">
+      <DependentUpon>parent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyModel\parent.aspx.designer.cs">
+      <DependentUpon>parent.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ashx\HelloWorld.ashx.cs">
       <DependentUpon>HelloWorld.ashx</DependentUpon>

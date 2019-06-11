@@ -1,0 +1,1 @@
+﻿功能1 窗口传值 parent.aspx,child.aspx
