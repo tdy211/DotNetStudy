@@ -1,0 +1,10 @@
+c:\users\田力\documents\visual studio 2012\Projects\FirstCodeFirstApp\FirstCodeFirstApp\bin\Debug\FirstCodeFirstApp.exe.config
+c:\users\田力\documents\visual studio 2012\Projects\FirstCodeFirstApp\FirstCodeFirstApp\bin\Debug\FirstCodeFirstApp.exe
+c:\users\田力\documents\visual studio 2012\Projects\FirstCodeFirstApp\FirstCodeFirstApp\bin\Debug\FirstCodeFirstApp.pdb
+c:\users\田力\documents\visual studio 2012\Projects\FirstCodeFirstApp\FirstCodeFirstApp\bin\Debug\EntityFramework.dll
+c:\users\田力\documents\visual studio 2012\Projects\FirstCodeFirstApp\FirstCodeFirstApp\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\田力\documents\visual studio 2012\Projects\FirstCodeFirstApp\FirstCodeFirstApp\bin\Debug\EntityFramework.xml
+c:\users\田力\documents\visual studio 2012\Projects\FirstCodeFirstApp\FirstCodeFirstApp\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\田力\documents\visual studio 2012\Projects\FirstCodeFirstApp\FirstCodeFirstApp\obj\Debug\FirstCodeFirstApp.exe
+c:\users\田力\documents\visual studio 2012\Projects\FirstCodeFirstApp\FirstCodeFirstApp\obj\Debug\FirstCodeFirstApp.pdb
+C:\Users\田力\documents\visual studio 2012\Projects\FirstCodeFirstApp\FirstCodeFirstApp\obj\Debug\FirstCodeFirstApp.csprojResolveAssemblyReference.cache

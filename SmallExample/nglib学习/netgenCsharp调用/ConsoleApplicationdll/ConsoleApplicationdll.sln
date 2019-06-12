@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationdll", "ConsoleApplicationdll\ConsoleApplicationdll.csproj", "{D990A19D-077C-42C2-92FE-9E7D94B7E96B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D990A19D-077C-42C2-92FE-9E7D94B7E96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D990A19D-077C-42C2-92FE-9E7D94B7E96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D990A19D-077C-42C2-92FE-9E7D94B7E96B}.Debug|x86.ActiveCfg = Debug|x86
+		{D990A19D-077C-42C2-92FE-9E7D94B7E96B}.Debug|x86.Build.0 = Debug|x86
+		{D990A19D-077C-42C2-92FE-9E7D94B7E96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D990A19D-077C-42C2-92FE-9E7D94B7E96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D990A19D-077C-42C2-92FE-9E7D94B7E96B}.Release|x86.ActiveCfg = Release|x86
+		{D990A19D-077C-42C2-92FE-9E7D94B7E96B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

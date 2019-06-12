@@ -1,0 +1,6 @@
+c:\users\田力\documents\visual studio 2013\Projects\EasyUI\EasyUI\bin\EasyUI.dll.config
+c:\users\田力\documents\visual studio 2013\Projects\EasyUI\EasyUI\bin\EasyUI.dll
+c:\users\田力\documents\visual studio 2013\Projects\EasyUI\EasyUI\bin\EasyUI.pdb
+c:\users\田力\documents\visual studio 2013\Projects\EasyUI\EasyUI\obj\Debug\EasyUI.csprojResolveAssemblyReference.cache
+c:\users\田力\documents\visual studio 2013\Projects\EasyUI\EasyUI\obj\Debug\EasyUI.dll
+c:\users\田力\documents\visual studio 2013\Projects\EasyUI\EasyUI\obj\Debug\EasyUI.pdb

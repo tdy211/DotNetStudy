@@ -1,0 +1,13 @@
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\bin\Ace.dll.config
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\bin\Ace.dll
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\bin\Ace.pdb
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\bin\Newtonsoft.Json.12.0.0.0.Fakes.dll
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\bin\Newtonsoft.Json.dll
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\bin\Newtonsoft.Json.pdb
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\bin\Newtonsoft.Json.xml
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\bin\Newtonsoft.Json.12.0.0.0.Fakes.xml
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\bin\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\obj\Debug\Ace.csprojResolveAssemblyReference.cache
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\obj\Debug\Ace.dll
+C:\Users\田力\documents\visual studio 2013\Projects\Ace\Ace\obj\Debug\Ace.pdb

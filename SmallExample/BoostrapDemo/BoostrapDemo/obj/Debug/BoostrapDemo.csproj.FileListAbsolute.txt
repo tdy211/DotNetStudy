@@ -1,0 +1,6 @@
+c:\users\田力\documents\visual studio 2013\Projects\BoostrapDemo\BoostrapDemo\bin\BoostrapDemo.dll.config
+c:\users\田力\documents\visual studio 2013\Projects\BoostrapDemo\BoostrapDemo\bin\BoostrapDemo.dll
+c:\users\田力\documents\visual studio 2013\Projects\BoostrapDemo\BoostrapDemo\bin\BoostrapDemo.pdb
+c:\users\田力\documents\visual studio 2013\Projects\BoostrapDemo\BoostrapDemo\obj\Debug\BoostrapDemo.csprojResolveAssemblyReference.cache
+c:\users\田力\documents\visual studio 2013\Projects\BoostrapDemo\BoostrapDemo\obj\Debug\BoostrapDemo.dll
+c:\users\田力\documents\visual studio 2013\Projects\BoostrapDemo\BoostrapDemo\obj\Debug\BoostrapDemo.pdb

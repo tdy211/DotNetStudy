@@ -1,0 +1,79 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 模板</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入 Bootstrap -->
+    <link href="../boostrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 Shiv 和 Respond.js 用于让 IE8 支持 HTML5元素和媒体查询 -->
+    <!-- 注意： 如果通过 file://  引入 Respond.js 文件，则该文件无法起效果 -->
+    <!--[if lt IE 9]>
+       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+
+</head>
+<body>
+    <div class="ibox float-e-margins">
+
+        <div id="tabContainer"></div>
+
+    </div>
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 包括所有已编译的插件 -->
+    <script src="../boostrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../boostrap/extraJs/addIframe.js"></script><!-- 引入下面js即可,自己命名 -->
+    <script>
+
+        var iframe = $("#tabContainer").iframes({
+            data: [{
+                id: 'home',
+                text: '用户',
+                url: "http://www.baidu.com",
+                closeable: true
+            }, {
+                id: 'admineap2',
+                text: '日志列表',
+                url: "http://wwww.qq.com"
+                , closeable: true
+            }
+             , {
+                id: 'admineap',
+                text: '部门',
+                url: "http://www.sina.com.cn"
+            }, {
+                id: 'menu',
+                text: '菜单',
+                url: "http://www.sohu.com"
+            },{
+                id: 'edit',
+                text: '百度一下',
+                url: "http://wwww.cctv.com",
+               closeable: true
+            } ],
+           showIndex: 1,
+            loadAll: false
+        })
+
+        iframe.addIframe({
+            id: 'admineap',
+            text: '部门',
+            url: "/dept/dept_update/27"
+            , closeable: true
+        });
+
+        iframe.addIframe({
+            id: 'menu',
+            text: '菜单',
+            url: "/menu/menu_edit/107"
+            , closeable: true
+        });
+        iframe.showIframe('admineap');//根据数据属性id设置
+    </script>
+
+
+</body>
+</html>

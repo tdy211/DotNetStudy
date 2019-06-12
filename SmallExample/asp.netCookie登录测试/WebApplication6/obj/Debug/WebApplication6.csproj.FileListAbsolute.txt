@@ -1,0 +1,9 @@
+c:\users\田力\documents\visual studio 2013\Projects\WebApplication6\WebApplication6\bin\WebApplication6.dll.config
+c:\users\田力\documents\visual studio 2013\Projects\WebApplication6\WebApplication6\bin\WebApplication6.dll
+c:\users\田力\documents\visual studio 2013\Projects\WebApplication6\WebApplication6\bin\WebApplication6.pdb
+c:\users\田力\documents\visual studio 2013\Projects\WebApplication6\WebApplication6\obj\Debug\WebApplication6.csprojResolveAssemblyReference.cache
+c:\users\田力\documents\visual studio 2013\Projects\WebApplication6\WebApplication6\obj\Debug\WebApplication6.dll
+c:\users\田力\documents\visual studio 2013\Projects\WebApplication6\WebApplication6\obj\Debug\WebApplication6.pdb
+C:\Users\田力\documents\visual studio 2013\Projects\WebApplication6\WebApplication6\bin\Newtonsoft.Json.dll
+C:\Users\田力\documents\visual studio 2013\Projects\WebApplication6\WebApplication6\bin\Newtonsoft.Json.pdb
+C:\Users\田力\documents\visual studio 2013\Projects\WebApplication6\WebApplication6\bin\Newtonsoft.Json.xml

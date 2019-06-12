@@ -1,0 +1,10 @@
+C:\Users\田力\Desktop\RobotSDKSample_Steel\RobotSDKSample\obj\Debug\Interop.RobotOM.dll
+C:\Users\田力\Desktop\RobotSDKSample_Steel\RobotSDKSample\obj\Debug\RobotSDKSample.csproj.ResolveComReference.cache
+C:\Users\田力\Desktop\RobotSDKSample_Steel\RobotSDKSample\bin\Debug\RobotSDKSample.exe
+C:\Users\田力\Desktop\RobotSDKSample_Steel\RobotSDKSample\bin\Debug\RobotSDKSample.pdb
+C:\Users\田力\Desktop\RobotSDKSample_Steel\RobotSDKSample\bin\Debug\Interop.RobotOM.dll
+C:\Users\田力\Desktop\RobotSDKSample_Steel\RobotSDKSample\obj\Debug\RobotSDKSample.Robot.resources
+C:\Users\田力\Desktop\RobotSDKSample_Steel\RobotSDKSample\obj\Debug\RobotSDKSample.Properties.Resources.resources
+C:\Users\田力\Desktop\RobotSDKSample_Steel\RobotSDKSample\obj\Debug\RobotSDKSample.csproj.GenerateResource.Cache
+C:\Users\田力\Desktop\RobotSDKSample_Steel\RobotSDKSample\obj\Debug\RobotSDKSample.exe
+C:\Users\田力\Desktop\RobotSDKSample_Steel\RobotSDKSample\obj\Debug\RobotSDKSample.pdb

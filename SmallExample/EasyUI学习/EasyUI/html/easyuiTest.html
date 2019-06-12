@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="../UI/themes/default/easyui.css" rel="stylesheet" />
+    <link href="../UI/themes/icon.css" rel="stylesheet" />
+    <link href="../UI/demo/demo.css" rel="stylesheet" />
+    <style type="text/css">
+        #fm {
+            margin: 0;
+            padding: 10px 30px;
+        }
+        .ftitle {
+            font-size: 14px;
+            font-weight: bold;
+            color: #666;
+            padding: 5px 0;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .fitem {
+            margin-bottom: 5px;
+        }
+            .fitem label {
+                display: inline-block;
+                width: 80px;
+            }
+    </style>
+    <script src="../UI/jquery.min.js"></script>
+    <script src="../UI/jquery-1.8.0.min.js"></script>
+    <script src="../UI/jquery.easyui.min.js"></script>
+    <script src="../UI/locale/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#tt').datagrid({
+                title: '学生信息管理',
+                iconCls: 'icon-save',
+                url: "../ashx/easyuiTest.ashx",//接收一般处理程序返回来的json数据
+                columns: [
+                [
+                { field: 'StuId', checkbox: true, width: 100, align: 'center' },
+                { field: 'StuNum', title: '学号', width: 100, align: 'center' },//field后面就改为你自己的数据表字段，然后可以调整宽度什么的
+                { field: 'StuName', title: '姓名', width: 100, align: 'center' },
+                { field: 'Phone', title: '电话', width: 100, align: 'center' },
+                { field: 'Email', title: '邮箱', width: 100, align: 'center' }
+                ]]
+            });
+        }
+        );
+        //添加学生
+        function newStudent() {
+            //清空内容
+            $('#fm').form('clear');
+            $('#dlg').dialog('open').dialog('setTitle', '添加学生');
+            document.getElementById("test").value = "add";
+        }
+        //修改学生
+        function editUser() {
+
+
+            var row = $('#tt').datagrid('getSelected');
+            if (row == null) {
+                $.messager.alert("提示", "请选择要修改的行！");
+            }
+            alert(row.StuId);
+            if (row) {
+                //获取要修改的字段
+                $('#StuNum').val(row.StuNum);
+                $('#StuName').val(row.StuName);
+                $('#Phone').val(row.Phone);
+                $('#Email').val(row.Email);
+                $('#dlg').dialog('open').dialog('setTitle', '修改学生');
+                document.getElementById("test").value = "modify";
+                $('#fm').form('load', row);
+
+
+            }
+        }
+        //删除学生  
+        function destroyUser() {
+            document.getElementById("test").value = "delete"; //设定表示为后台调不同方法数据提供接口  
+            var test = document.getElementById("test").value;
+            var row = $('#tt').datagrid('getSelected');
+            if (row) {
+                $.messager.confirm('提示', '你确定要删除这条信息吗？', function (r) {
+                    if (r) {
+                        $('#fm').form('submit', {
+                            url: "../ashx/easyuiTest.ashx?StuId=" + row.StuId + "&test=" + test,
+                            onSubmit: function () {
+                            },
+                            //判断结果是否正确  
+                            success: function (result) {
+                                if (result.indexOf("T") == 0) {
+                                    $('#dlg').dialog('close');
+                                    alert('恭喜您，信息删除成功！')
+                                    $('#tt').datagrid('reload');
+                                }
+                                else {
+                                    alert('添加失败，请重新操作！')
+                                }
+                            }
+                        });
+                    }
+                });
+            }
+        }
+
+        //保存信息  
+        function saveUser() {
+
+
+            var test = document.getElementById("test").value;
+            if (test == "add") {
+                $('#fm').form('submit', {
+                    url: "../ashx/easyuiTest.ashx?test=" + test,
+                    onSubmit: function () {
+                        return $(this).form('validate');
+                    },
+                    data: { StuNum: $("#StuNum").val(), StuName: $("#StuName").val(), Phone: $("#Phone").val(), Email: $("#Email").val() },
+                    success: function (result) {
+                        if (result.indexOf("T") == 0) {
+                            $('#dlg').dialog('close');
+                            $.messager.alert("提示", "恭喜您，信息添加成功", "info");
+                            $('#tt').datagrid('reload');
+                        }
+                        else {
+                            $.messager.alert("提示", "添加失败，请重新操作！", "info");
+                            return;
+                        }
+                    }
+                });
+
+
+            } else {
+                var row = $('#tt').datagrid('getSelected');
+                if (row) {
+                    //获取要修改的字段  
+                    var StuId = row.StuId;
+                }
+                $('#fm').form('submit', {
+                    url: "../ashx/easyuiTest.ashx?test=" + test + "&StuId=" + StuId,
+                    onSubmit: function () {
+                        return $(this).form('validate');
+                    },
+                    data: { StuNum: $("#StuNum").val(), StuName: $("#StuName").val(), Phone: $("#Phone").val(), Email: $("#Email").val() },
+                    success: function (result) {
+                        if (result.indexOf("T") == 0) {
+                            $('#dlg').dialog('close');
+                            $('#tt').datagrid('clearSelections'); //清空选中的行  
+                            $.messager.alert("提示", "恭喜您，信息修改成功");
+                            $('#tt').datagrid('reload');
+                        }
+                        else {
+                            $.messager.alert("提示", "修改失败，请重新操作！");
+                            return;
+                        }
+                    }
+                });
+            }
+        }
+    </script>
+</head>
+<body>
+    <input id="test" name="test" type="hidden">
+    <table id="tt" class="easyui-datagrid" style="width: auto; height: 400px;" idfield="StuId" pagination="true" data-options="rownumbers:true,url:'../ashx/easyuiTest.ashx',pageSize:5,pageList:[5,10,15,20],method:'Post',toolbar:'#tb',striped:true" fitcolumns="true"></table>
+    <div id="tb">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-add" plain="true" onclick="newStudent()">添加学生</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-edit" plain="true" onclick="editUser()">修改学生</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconcls="icon-remove" plain="true" onclick="destroyUser()">删除学生</a>
+    </div>
+    <div id="dlg" class="easyui-dialog" style="width:600px;height:480px;padding:10px 20px" closed="true" buttons="#dlg-buttons">
+        <div class="ftitle">学生信息</div>
+        <form id="fm" method="post" novalidate>
+
+
+            <div class="fitem">
+                <label>学号：</label>
+                <input id="StuNum" name="StuNum" class="easyui-validatebox" data-options="required:true" />
+            </div>
+            <div class="fitem">
+                <label>姓名：</label>
+                <input id="StuName" name="StuName" class="easyui-validatebox" data-options="required:true" />
+            </div>
+            <div class="fitem">
+                <label>电话:</label>
+                <input id="Phone" name="Phone" />
+            </div>
+            <div class="fitem">
+                <label>邮箱:</label>
+                <input id="Email" name="Email" />
+            </div>
+            <div class="fitem">
+                <label>附件:</label>
+                <input class="easyui-filebox" id="Atta" name="Atta" />
+            </div>
+        </form>
+    </div>
+    <div id="dlg-buttons">
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-ok'" onclick="saveUser()">保存</a>
+        <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'" onclick="javascript:$('#dlg').dialog('close')">关闭</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../UI/themes/default/easyui.css" rel="stylesheet" />
+    <link href="../UI/themes/icon.css" rel="stylesheet" />
+    <link href="../UI/demo/demo.css" rel="stylesheet" />
+    <script src="../UI/jquery.min.js"></script>
+    <script src="../UI/jquery-1.8.0.min.js"></script>
+    <script src="../UI/jquery.easyui.min.js"></script>
+    <script src="../UI/locale/easyui-lang-zh_CN.js"></script>
+    <title>登录</title>
+    <style>
+        body
+        {
+         
+          background-image: url(images/Login_background.jpg);
+        }
+        .login_box { 
+            background:rgba(10, 22, 52, 0.80); 
+            width:500px; 
+            height:380px; 
+            margin:200px auto;
+            border:2px solid #3C7BD2;
+            border-radius:2px;
+            color:white;
+            font-size:18px; 
+
+        }
+    </style>
+    <script>
+        function submitForm()
+        {
+            window.location.href = "home.html"
+        }
+    </script>
+
+</head>
+<body>
+    <div class="login_box">
+        <div style="padding:100px 60px 20px 60px">
+            <form id="ff" method="post">
+                <table cellpadding="5">
+                    <tr>
+                        <td>用户名:</td>
+                        <td><input class="easyui-textbox" type="text" name="name" data-options="required:true" style="width:250px"></input></td>
+                    </tr>
+                    <tr>
+                        <td>密 码:</td>
+                        <td><input class="easyui-textbox" type="text" name="email" data-options="required:true,validType:'email'" style="width:250px"></input></td>
+                    </tr>
+                </table>
+            </form>
+            <div style="text-align:center;padding:30px">
+                <a href="javascript:void(0)" class="easyui-linkbutton" onclick="submitForm()" style="width:180px; height:30px">登录</a>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+c:\users\田力\documents\visual studio 2012\Projects\ConsoleApplicationdll\ConsoleApplicationdll\bin\x86\Debug\ConsoleApplicationdll.exe.config
+c:\users\田力\documents\visual studio 2012\Projects\ConsoleApplicationdll\ConsoleApplicationdll\bin\x86\Debug\ConsoleApplicationdll.exe
+c:\users\田力\documents\visual studio 2012\Projects\ConsoleApplicationdll\ConsoleApplicationdll\bin\x86\Debug\ConsoleApplicationdll.pdb
+c:\users\田力\documents\visual studio 2012\Projects\ConsoleApplicationdll\ConsoleApplicationdll\obj\x86\Debug\ConsoleApplicationdll.exe
+c:\users\田力\documents\visual studio 2012\Projects\ConsoleApplicationdll\ConsoleApplicationdll\obj\x86\Debug\ConsoleApplicationdll.pdb

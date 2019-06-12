@@ -1,0 +1,12 @@
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\bin\Debug\cadPlugIn.exe.config
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\obj\Debug\cadPlugIn.csproj.ResolveComReference.cache
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\obj\Debug\cadPlugIn.csprojResolveAssemblyReference.cache
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\obj\Debug\cadPlugIn.Form1.resources
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\obj\Debug\cadPlugIn.Properties.Resources.resources
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\obj\Debug\cadPlugIn.csproj.GenerateResource.Cache
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\obj\Debug\Interop.AXAUTO15Lib.dll
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\bin\Debug\cadPlugIn.exe
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\bin\Debug\cadPlugIn.pdb
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\bin\Debug\Interop.AXAUTO15Lib.dll
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\obj\Debug\cadPlugIn.exe
+c:\users\田力\documents\visual studio 2012\Projects\cadPlugIn\cadPlugIn\obj\Debug\cadPlugIn.pdb

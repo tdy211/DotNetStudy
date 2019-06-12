@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="../UI/themes/default/easyui.css" rel="stylesheet" />
+    <link href="../UI/themes/icon.css" rel="stylesheet" />
+    <link href="../UI/demo/demo.css" rel="stylesheet" />
+    <script src="../UI/jquery.min.js"></script>
+    <script src="../UI/jquery-1.8.0.min.js"></script>
+    <script src="../UI/jquery.easyui.min.js"></script>
+    <script src="../UI/locale/easyui-lang-zh_CN.js"></script>
+    <style type="text/css">
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .easyui-layout {
+            width: 100%;
+            height: 100%;
+            color: #fff;
+            text-align: center;
+        }
+
+
+        .ulMenu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+            .ulMenu > li {
+                display: block;
+                width: 100%;
+                font-weight: bold;
+                color: #FFFFFF;
+                background-color: #95b8e791;
+                text-align: center;
+                padding: 4px;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            .ulMenu > li > a {
+                display:block;
+            }
+
+            .ulMenu a:link, .ulMenu a:visited {
+                display: block;
+                width: 120px;
+                font-weight: bold;
+                color: #FFFFFF;
+                background-color: #95b8e7;
+                text-align: center;
+                padding: 4px;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .ulMenu a:hover, .ulMenu a:active {
+                background-color: #cc0000;
+            }
+    </style>
+    <script>
+        function addTab(title, url) {
+            if ($('#tt').tabs('exists', title)) {
+                $('#tt').tabs('select', title);
+            } else {
+                var content = '<iframe scrolling="auto" frameborder="0"  src="' + url + '" style="width:100%;height:100%;"></iframe>';
+                $('#tt').tabs('add', {
+                    title: title,
+                    content: content,
+                    closable: true
+                });
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div class="easyui-layout">
+        <div data-options="region:'north'" style="height:80px;background-color:#95B8E7;font-family:Consolas;font-size:40px;color:white;padding: 16px;overflow: hidden;">A Simple PM System</div>
+        <div data-options="region:'south',split:true" style="height:10px;"></div>
+        <div data-options="region:'west',split:true" title="West" style="width:200px;">
+            <div id="aa" class="easyui-accordion" style="width:100%;height:100%;">
+                <div title="Title1" data-options="iconCls:'icon-save'" style="overflow:auto;padding:10px;">
+                    <h3 style="color:#0099FF;">Accordion for jQuery</h3>
+                    <p>
+                        Accordion is a part of easyui framework for jQuery.
+                        It lets you define your accordion component on web page more easily.
+                    </p>
+                </div>
+                <div title="Title2" data-options="iconCls:'icon-reload',selected:true" style="padding:10px;">
+                    content2
+                </div>
+                <div title="Title3">
+
+                    <ul class="ulMenu">
+                        <li onclick="addTab('google','http://www.google.com')"><a>google</a></li>
+                        <li onclick="addTab('jquery','http://jquery.com/')"><a>jquery</a></li>
+                        <li onclick="addTab('easyui','http://jeasyui.com/')"><a>easyui</a></li>
+                        <li onclick="addTab('easyui', 'easyuiTest.html')"><a>easyuiTest.html</a></li>
+                        <li onclick="addTab('easyui', 'http://www.baidu.com')"><a>资料管理</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div data-options="region:'center',title:'Main Title',iconCls:'icon-ok'">
+            <div id="tt" class="easyui-tabs" style="width:100%;height:100%;">
+                <div title="Tab1" style="padding:20px;display:none;width:100%;height:100%">
+                    tab1
+                </div>
+                <div title="Tab2" data-options="closable:true" style="overflow:auto;padding:20px;display:none;">
+                    tab2
+                </div>
+                <div title="Tab3" data-options="iconCls:'icon-reload',closable:true" style="padding:20px;display:none;">
+                    tab3
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

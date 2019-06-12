@@ -1,0 +1,5 @@
+c:\users\田力\documents\visual studio 2012\Projects\dingding\dingding\bin\dingding.dll
+c:\users\田力\documents\visual studio 2012\Projects\dingding\dingding\bin\dingding.pdb
+c:\users\田力\documents\visual studio 2012\Projects\dingding\dingding\obj\Debug\dingding.csprojResolveAssemblyReference.cache
+c:\users\田力\documents\visual studio 2012\Projects\dingding\dingding\obj\Debug\dingding.dll
+c:\users\田力\documents\visual studio 2012\Projects\dingding\dingding\obj\Debug\dingding.pdb

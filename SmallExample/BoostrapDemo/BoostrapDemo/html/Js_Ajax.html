@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>ajax基础</title>
+</head>
+<body>
+    点击按钮的时候，读取abc.txt<input id="btn" type="button" value="读取" /><br />
+    <div id="con"></div>
+</body>
+</html>
+<script type="text/javascript" src="../boostrap/extrajs/ajax.js"></script>
+<script type="text/javascript">
+    window.onload = function () {
+        var oBtn = document.getElementById('btn');
+        var oCon = document.getElementById('con');
+        oBtn.onclick = function () {
+            ajax('abc.txt', function (str) {
+                oCon.innerHTML = str;
+            });
+        }
+    }
+</script>

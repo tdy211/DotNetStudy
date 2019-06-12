@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RobotSDKSample">
+</Property><Property Name="解决方案文件" Value="C:\Users\田力\Desktop\RobotSDKSample_Steel\RobotSDKSample.sln">
+</Property><Property Name="Date" Value="2019年5月25日">
+</Property><Property Name="Time" Value="12:00">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RobotSDKSample.sln" Description="文件已成功备份为 C:\Users\田力\Desktop\RobotSDKSample_Steel\Backup\RobotSDKSample.sln">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\RobotSDKSample.csproj" Description="项目文件已成功备份为 C:\Users\田力\Desktop\RobotSDKSample_Steel\Backup\RobotSDKSample\RobotSDKSample.csproj">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\Robot.cs" Description="文件已成功备份为 C:\Users\田力\Desktop\RobotSDKSample_Steel\Backup\RobotSDKSample\Robot.cs">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\Robot.Designer.cs" Description="文件已成功备份为 C:\Users\田力\Desktop\RobotSDKSample_Steel\Backup\RobotSDKSample\Robot.Designer.cs">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\Program.cs" Description="文件已成功备份为 C:\Users\田力\Desktop\RobotSDKSample_Steel\Backup\RobotSDKSample\Program.cs">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Users\田力\Desktop\RobotSDKSample_Steel\Backup\RobotSDKSample\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\Properties\Resources.Designer.cs" Description="文件已成功备份为 C:\Users\田力\Desktop\RobotSDKSample_Steel\Backup\RobotSDKSample\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\Properties\Settings.Designer.cs" Description="文件已成功备份为 C:\Users\田力\Desktop\RobotSDKSample_Steel\Backup\RobotSDKSample\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\Properties\Settings.settings" Description="文件已成功备份为 C:\Users\田力\Desktop\RobotSDKSample_Steel\Backup\RobotSDKSample\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\Robot.resx" Description="文件已成功备份为 C:\Users\田力\Desktop\RobotSDKSample_Steel\Backup\RobotSDKSample\Robot.resx">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\Properties\Resources.resx" Description="文件已成功备份为 C:\Users\田力\Desktop\RobotSDKSample_Steel\Backup\RobotSDKSample\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\RobotSDKSample.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="RobotSDKSample" Source="RobotSDKSample\RobotSDKSample.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RobotSDKSample.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="RobotSDKSample.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RobotSDKSample" Source="RobotSDKSample\RobotSDKSample.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>
